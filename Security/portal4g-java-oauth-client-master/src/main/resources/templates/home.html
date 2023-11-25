@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:replace="fragments/header :: header-css"/>
+</head>
+<body>
+
+<div th:replace="fragments/header :: header"/>
+
+<div class="container">
+
+    <div class="starter-template">
+        <h1>NCU Portal OAuth</h1>
+
+		<h2>1. <button style="font-size: 18px;" onclick="window.open('file:///C:/Users/abc09/git/Security/portal4g-java-oauth-client-master/src/main/resources/templates/login.html', '_blank')">User page</button></h2>
+        <h5>2. Visit <a th:href="@{/about}">Normal page</a></h5>
+    </div>
+
+</div>
+
+<div th:replace="fragments/footer :: footer"/>
+
+</body>
+</html>
